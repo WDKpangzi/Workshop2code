@@ -2,7 +2,7 @@ let failGif;
 
 function preload()
 {
-failGif = loadImage("fail•g¡f");
+failGif = loadImage("fail.gif");
 }
 
 function setup()
@@ -10,8 +10,8 @@ function setup()
 createCanvas (400,800);
 }
 
-function drawl()
+function draw()
 {
 background (0); 
-image (failG1f,0,0);
+image (failGif,0,0);
 }
